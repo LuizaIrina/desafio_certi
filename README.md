@@ -1,14 +1,14 @@
 # Desafio - Instituto CERTI Sapientia
 
 ### Servidor HTTP de conversão de números, recebendo um número em algarismo no PATH e retornando no método GET o mesmo número em extenso em um objeto JSON. Os números recebidos podem estar no intervalo [-99.999, 99.999] e retonam em português de acordo com os exemplos a seguir:                         
-> $curl http://localhost:5000/39321
+> $curl http://localhost:5000/98700
 >```json
 >{
 >    "numero": "escreveu 98700",
 >    "numero convertido": "noventa e oito mil e setecentos"
 >}
 
-> $curl http://localhost:5000/39321
+> $curl http://localhost:5000/-0111
 >```json
 >{
 >    "numero": "escreveu -0111",
