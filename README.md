@@ -27,9 +27,9 @@ Baixe o arquivo em .zip e descompacte. Pelo terminal entre no diretório descomp
 
 Se estiver usando o Windows, abra o terminal PowerShell e execute o seguinte comando para ativar a 'venv':
 
->python -m venv .\.venv
+>python -m venv .\ .venv
 
->.\.venv\Scripts\activate
+>.\ .venv\Scripts\activate
 
 É possível que o PowerShell precise de uma mudança de permissionamento para execução do 'activate', de acordo com a doc https://docs.microsoft.com/pt-br/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1 o comando a seguir costuma resolver:
 
